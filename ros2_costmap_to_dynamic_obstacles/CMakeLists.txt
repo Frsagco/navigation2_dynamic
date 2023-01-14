@@ -64,7 +64,7 @@ ament_target_dependencies(my_converter_node
 
 
 install(TARGETS ros2_costmap_to_dynamic_obstacles
-   DESTINATION lib/${PROJECT_NAME} 
+   DESTINATION lib/
 )
 install(TARGETS my_converter_node
    DESTINATION lib/${PROJECT_NAME}      # changed from DESTINATION bin
